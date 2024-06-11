@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "879929698551",
+    "project_id": "untitlec-9bb05",
+    "storage_bucket": "untitlec-9bb05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879929698551:android:24534c086e4b546b594bf2",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879929698551-75hl525tddf4pfmve1tj4ga9g0997ohh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDetntmKvuY12mmW6C5qyYpK3oEzUsr118"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879929698551-75hl525tddf4pfmve1tj4ga9g0997ohh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "879929698551-f9gop327u54m0lf2peqcvqm4k41hqsvv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arglassesproja"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
