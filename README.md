@@ -2,4 +2,6 @@
 
 ### IOS ✅
 ### Android ❌
+### MacOS ❌
+### Windows ❌
 Android Studio에서 작성되었음
