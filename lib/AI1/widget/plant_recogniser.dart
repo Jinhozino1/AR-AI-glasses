@@ -102,10 +102,14 @@ class _PlantRecogniserState extends State<PlantRecogniser> {
       child: Column(
         mainAxisSize: MainAxisSize.max,
         children: [
+          /* 뒤로가기 만들기 */
+          Padding(padding: EdgeInsets.only(top:60)),
+          _buildBackbutton(),
+
           const Spacer(),
           Padding(
             padding: const EdgeInsets.only(top: 30),
-            //child: _buildTitle(),
+            // child: _buildTitle(),
           ),
           const SizedBox(height: 20),
           _buildPhotolView(),
@@ -120,18 +124,36 @@ class _PlantRecogniserState extends State<PlantRecogniser> {
             title: '사진 가져오기',
             source: ImageSource.gallery,
           ),
-          /*
-          TextButton(
-            onPressed: () {Navigator.pop(context);},
-            child: Text('뒤로가기'),
-          ),
-          */
+
+          // TextButton(
+          //   onPressed: () {Navigator.pop(context);},
+          //   child: Text('뒤로가기'),
+          // ),
           const Spacer(),
         ],
       ),
     );
   }
 
+
+  Widget _buildBackbutton() {
+    return Container(
+      decoration: BoxDecoration(),
+        child: Row(
+
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                IconButton(
+                  padding: EdgeInsets.only(top: 10),
+                  icon: const Icon(Icons.chevron_left),
+                  color: Colors.black,
+                  iconSize: 50,
+                  onPressed: () { Navigator.pop(context); },
+              ),
+            ]
+        )
+    );
+  }
   Widget _buildPhotolView() {
     return Stack(
       alignment: AlignmentDirectional.center,
