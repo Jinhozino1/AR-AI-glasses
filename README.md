@@ -32,3 +32,8 @@
 
 ## 결과화면 
 ![Image](https://github.com/user-attachments/assets/0ead1577-9ad4-47d1-aa69-634bca86710b)
+* 메인화면 <br><br>
+![Image](https://github.com/user-attachments/assets/a6e399ee-b57d-4732-b6d2-6a1c89014bb6)
+* AI 안경 추천 <br><br>
+![Image](https://github.com/user-attachments/assets/5f5ff6f2-a3b8-4d20-8a0f-1c049f75aa67)
+* AR 모의 착용
